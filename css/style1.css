@@ -1,0 +1,57 @@
+/*header start*/
+
+.header1{
+	/*border: 1px solid green;*/
+	padding: 10px 0;
+}
+.container1 {
+	width: 70%;
+	/*border: 1px solid;*/
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.logo1 {
+	float: left;
+	width: 20%;
+	/*border: 1px solid red;*/
+
+}
+.logo1 a{
+	margin: 0 15px;
+
+}
+.logo1 a img{
+	width: 100%;
+
+}
+
+.menu1 {
+	width: 78%;
+	float:right;
+	/*border: 1px solid red;*/
+	overflow: hidden;
+}
+.menu1 ul{
+	list-style: none;
+	float: right;
+
+}
+.menu1 ul li{
+	float: left;
+
+}
+.menu1 ul li a{
+	text-decoration: none;
+	display: inline-block;
+	margin: 0 8px;
+	font-size: 12px;
+	
+
+}
+.menu1 ul li a:hover{
+	color: #DD93A2
+}
+.menu1 ul li:first-child a{
+	margin-left: 0;
+}

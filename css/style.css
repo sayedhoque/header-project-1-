@@ -1,0 +1,64 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+
+/*header start*/
+header{
+	border-bottom: 1px solid #FBEDF1;
+	padding: 10px 0;
+}
+.container {
+	width: 90%;
+	/*border: 1px solid;*/
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.logo {
+	float: left;
+	width:10%; 
+	/*border: 2px solid red;*/
+}
+.logo a{
+
+}
+.logo a img{
+	width: 100%;
+
+}
+
+.menu {
+	float: right;
+	width: 40%;
+	
+}
+.menu ul{
+	list-style: none;
+	float: right;
+	/*overflow: hidden;*/
+
+}
+.menu ul li{
+	float: left;
+
+}
+.menu ul li a{
+	text-decoration: none;
+    margin: 0 15px;
+    display: inline-block;
+    font-size: 18px; 
+    color:#0F2656;
+    text-transform: capitalize;
+
+}
+.menu ul li a:hover{
+	color: #008AFF;
+
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+
+}
+/*header end*/
